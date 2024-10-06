@@ -2,7 +2,7 @@
 
 set -e
 
-mkdir ./output
+mkdir -p ./output
 chown www-data:www-data ./output
 
 # install PHP dependencies
